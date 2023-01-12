@@ -1,25 +1,49 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+//escribir rfc para crear estructura basica de react
 
-const Home: React.FC = () => {
+//import IonAccordion "@ionic/react";
+import React from "react";
+import {
+  //IonActionSheet,
+  //IonButtonComponent,
+  //IonAccordionComponent,
+  //IonAlertComponent,
+  //IonBadgeComponent,
+  //IonBreadCrumbsComponent,
+  //IonRippleEffectComponent,
+  //IonCardComponent,
+  //IonCheckBoxComponent,
+  //IonChipComponent,
+  //IonDateTimeComponent,
+  //IonPickerComponent,
+  //IonFabComponent,
+  //IonToastComponent,
+  //IonInputComponent,
+  //IonMenuComponent,
+  //IonModalComponent,
+  IonLoadingComponent,
+} from "../components";
+
+export default function home() {
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
+    <div>
+      {/*<IonActionSheet />*/}
+      {/*<IonButtonComponent />*/}
+      {/*<IonAccordionComponent />*/}
+      {/*<IonAlertComponent /> */}
+      {/*<IonBadgeComponent /> */}
+      {/*<IonBreadCrumbsComponent /> */}
+      {/*<IonRippleEffectComponent /> */}
+      {/*<IonCardComponent /> */}
+      {/*<IonCheckBoxComponent /> */}
+      {/*<IonChipComponent /> */}
+      {/*<IonDateTimeComponent /> */}
+      {/*<IonPickerComponent /> */}
+      {/*<IonFabComponent /> */}
+      {/*<IonToastComponent /> */}
+      {/*<IonInputComponent /> */}
+      {/*<IonMenuComponent /> */}
+      {/*<IonModalComponent /> */}
+      <IonLoadingComponent />
+    </div>
   );
-};
-
-export default Home;
+}

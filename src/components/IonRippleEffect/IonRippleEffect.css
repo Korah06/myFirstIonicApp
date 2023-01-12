@@ -1,0 +1,10 @@
+.rectangle{
+   width: 300px;
+   height: 150px;
+}
+
+.ripple-parent{
+   position:relative;
+   overflow: hidden;
+   border: 1px solid gray;
+}
